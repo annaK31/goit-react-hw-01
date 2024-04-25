@@ -1,0 +1,24 @@
+table, th, tr, td{
+    border-collapse: collapse;
+    border: solid 2px #192300;
+    margin-top: 50px;
+    width: 600px;
+    margin-bottom: 50px;
+}
+.trsn_table_head{
+    padding: 8px;
+    font-family: Roboto, sans-serif;
+}
+.trsn_thread{
+    background-color: #00100f;
+    color: white;
+}
+.trsn_item:nth-child(2n){
+    background-color: #c8c9c9;
+}
+.trsn_info{
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 3px;
+}

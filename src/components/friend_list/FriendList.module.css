@@ -1,0 +1,32 @@
+.friends_item{
+ 
+    width: calc((100% - 32px )/ 5);
+}
+
+.friend_card{
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 100px;
+
+}
+
+.friend_name{
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.friend_photo{
+    margin-bottom: 10px;
+}
+.friends_box{
+    padding-top: 40px;
+    display: flex;
+    gap: 8px;
+    width: 600px;
+}
+.friend_status{
+    font-size: 20px;
+    color: black;
+}
