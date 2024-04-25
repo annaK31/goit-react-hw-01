@@ -1,7 +1,7 @@
 import css from './Profile.module.css'
 
 
-const Profile = ({username, tag, location, avatar="https://cdn-icons-png.flaticon.com/512/2922/2922506.png" , stats: {followers, views, likes}}) => {
+const Profile = ({username, tag, location, avatar="https://cdn-icons-png.flaticon.com/512/2922/2922506.png", stats: {followers, views, likes}}) => {
     return (
         <div className={css.card_box}>
            <div className={css.photo_box}>
@@ -9,8 +9,7 @@ const Profile = ({username, tag, location, avatar="https://cdn-icons-png.flatico
               src={avatar}
               alt="User avatar"
              width="150"
-        
-            />
+                />
             <p className={css.user_name}>{username}</p>
             <p className={css.user_tag}>@{tag}</p>
             <p className={css.user_location}>{location}</p>
