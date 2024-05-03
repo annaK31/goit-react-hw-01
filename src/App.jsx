@@ -8,6 +8,8 @@ import transactions from "./transactions.json"
 
 
  const App = () => {
+  
+  
   return (
     <>
       <Profile
@@ -19,6 +21,7 @@ import transactions from "./transactions.json"
       />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
+      
     </>
   );
 };
